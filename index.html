@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Hex Explorer – v4.2 (patrol-reset + random start)</title>
+<title>Hex Crawl – v1.0</title>
 <style>
   :root{color-scheme:light dark; --bg1:#0b0b0e; --bg2:#151518; --fg:#f5f6f9; --fg-dim:#9aa0a6;
         --card:#0e0e12cc; --border:#26262c; --accent:#6366f1; --ink:#fff; --danger:#ef4444; --ok:#22c55e}
@@ -86,7 +86,7 @@
   <div style="display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:14px">
     <div>
       <h1 style="margin:0;font-size:26px;letter-spacing:-0.02em">Hex Explorer</h1>
-      <p class="sub" style="margin:4px 0 0">Explore adjacent hexes • GM details on click</p>
+      <p class="sub" style="margin:4px 0 0">Explore adjacent hexes</p>
     </div>
     <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
       <input id="seed" type="text" placeholder="Seed (optional)" style="min-width:160px;flex:1 1 220px"/>
@@ -104,7 +104,7 @@
       <svg id="mapSvg" viewBox="0 0 1000 700" role="img" aria-label="Hex map" style="border-radius:12px"></svg>
       <div id="cards" class="results" style="margin-top:12px"></div>
       <div class="card" style="margin-top:12px">
-        <h3 style="margin:0 0 8px">GM Details</h3>
+        <h3 style="margin:0 0 8px">Hex Details</h3>
         <div id="gmDetail" class="muted">Click a discovered hex to see expanded prompts and tables.</div>
       </div>
 
