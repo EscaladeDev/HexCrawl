@@ -1,4 +1,4 @@
-# Dungeon Sketch Proprietary License (Alpha)
+# Escalade Tool Proprietary License (Alpha)
 ### Copyright (c) 2026 Escalade
 
 All rights reserved.
